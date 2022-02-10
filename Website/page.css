@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navigation a{
+  color: #f514e2;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+  background-color: #f514e2;
+  color:#0c0c46;
+  border-radius: 15px;
+
+}
+.Set{
+  background-color:orange;
+  color:white;
+  border-radius: 15px;
+}
+.logo{
+   color: #f514e2;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 1.8em;
+}
+
+header{
+  background: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 12px 100px;
+}
+.section{
+  padding: 100px 200px;
+}
+.main{
+ 
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #0c0c46;
+  background-image: url("image/lading.png.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2{
+  margin: 0px 50px;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 800;
+}
+.main h2 span{
+  display: inline-block;
+  margin-top: 0px;
+  color: #f514e2;
+  font-size: 3.5em;
+  font-weight:600;
+}
+.main h3{
+  margin: 0px 50px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight:700;
+}
+.main-btn{
+    margin: 0px 50px;
+    background: #f514e2;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #0000a9;
+    padding: 0.6em 1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  
+}
+.main-btn:hover{
+  background-color: #f514e2;
+  color:#0000a9;
+  transform: scale(1.1);
+}
+.social-icons{
+  margin: 0px 50px;
+}
+.social-icons a{
+  
+  color: white;
+  font-size: 1.7em;
+  padding-right: 10px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #f514e2;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+
+}
+.content{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   color: #0000a9;
+}
+.content .card{
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 180px;
+}
+.card{
+  background-color: whitesmoke;
+  box-shadow: 0 5px 25px rgba(1 1 1/100%);
+  border-radius: 10px;
+  margin-bottom: 60px;
+  width: 21.25em;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover{
+  transition: scale(1.1);
+  background-color: #f514e2;
+  opacity: 0.5;
+}
+.icon{
+  color:#0000a9;
+  font-size: 8em;
+  text-align: center;
+
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  color: #FFA11E;
+  font-size: 1.2em;
+  font-weight: 700px;
+  margin: 10px;
+}
+
+.Project{
+  background-color:#0000a9; 
+}
+.Project .content{
+  margin-top: 30px;
+}
+.project-card{
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;  /* when content is scrol is hiden */
+  border-radius: 13px;
+  margin: 20px;
+  transition: 00.7s ease;
+  
+}
+/* if you hover the card is zoomed in */
+.project-card:hover{
+  transform: scale(1.1);
+}
+
+/* image event is bright when you hover*/
+.project-card img{
+  width: 100%;
+}
+
+/* image event is bright when you hover*/
+.project-card:hover img{
+  width: 100%;
+}
+.project-info{
+  padding: 1em;
+}
+
+.project-category{
+  font-size: 0.8em;
+  color: #0000a9;
+
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.More-detail{
+  
+  color: #0000a9;
+  text-decoration:solid;
+  text-shadow: 2px 2px 5px rgb(151, 30, 66);
+}
+/* when you hover it changes its color */
+.More-detail:hover{
+  color: #0000a9;
+}
+
+
+/* contacts modivication section*/
+
+.content .icon{
+  font-size: 4.5em;
+  
+}
+.content .info h3{
+  color: #0c0c46;
+  border-bottom: 2px solid orange;
+}
+
+.content .info p{
+  font-size: 1em;
+  box-sizing: border-box;
+}
+/* registration form design css*/
+.Registration{
+    background-color: whitesmoke;
+    margin: 20px 90px;
+    border: 1px solid #fff;
+    min-height: 18em;
+    width: 70em;
+    overflow: hidden;  /* when content is scrol is hiden */
+    border-radius: 13px;
+    margin-left: 90px;
+    padding: 20px 170px;
+}
+.Registration h2{
+  text-align: center;
+  font-size: 2em;
+  color: #f514e2;
+}
+input{
+  border-radius: 3px;
+  width: 100%;
+  padding:10px 8px;
+  background-color: whitesmoke;
+  
+}
+.Registration input:hover{
+  background-color: orange;
+}
+input[type="submit"]{
+  background-color:  #b10892;
+  padding: 8px 10px;
+  margin-top: 40px;
+  border-radius: 5px;
+  color:white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+/* new footer css */
+.footer-container{
+  max-width: 1170px;
+  margin:auto;
+  color: rgb(255, 239, 17);
+  }
+  *{
+      font-family: sans-serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  ul{
+      list-style: none;
+  }
+  footer{
+      background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-cool{
+    width: 25%;
+    color:#ffff;
+    padding: 0 15px;
+  }
+  
+  .footer-cool h3{
+      font-size: 24px;
+      color: white;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      font-weight: 500;
+      position: relative;
+  }
+  
+  .footer-cool h3::before{
+      content:'';
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      background-color:#e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+  }
+  .footer-cool ul li a{
+      color: orange;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: 500;
+      padding: 6px;
+    }
+  
+  .footer-heading{
+      display: flex;
+      flex-direction: column;
+      margin-right: 4rem;
+  }
+  .footer-heading h2{
+      margin-bottom: 2rem;
+      color: rgb(4, 155, 224);;
+  }
+  
+  footer-heading a{
+      color: white;
+      text-decoration: none;
+      margin-bottom: 0.5rem;
+  }
+  .footer-mail-form{
+      margin-top: 20px;
+      color: orange;
+      font-size: 15px;
+  }
+  #footer-email{
+      font-size: 10px;
+      color: black;
+      margin-top: 13px;
+      background-color:whitesmoke;
+      border-color: orange;
+      border-radius: 5px;
+  }
+  #footer-email-btn{
+      margin-top: 16px;
+      box-sizing: border-box;
+      font-size: 18px;
+      background-color: rgb(4, 155, 224);
+      color: whitesmoke;
+      border-color: orange;
+      border-radius: 5px;
+     
+  }
+  #footer-email-btn:hover{
+      background-color: #f514e2;
+  }
+
+  .social-media a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 10px;
+  }
+
+/* previos footer design css
+.footer{
+  background-color: #0000a9;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title{
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span{
+  color: orange;
+
+}
+.footer .social-icons a{
+  font-size: 1.3em;
+  padding: 0 12px 0 0 ;
+}
+*/
